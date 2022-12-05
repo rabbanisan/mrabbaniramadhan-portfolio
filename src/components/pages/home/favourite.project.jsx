@@ -23,6 +23,7 @@ const FavProject = () => {
 								image={`${process.env.PUBLIC_URL} ${item.image}`}
 								name={item.name}
 								tech={item.tech}
+								url={item.projectUrl}
 							/>
 						);
 					})}

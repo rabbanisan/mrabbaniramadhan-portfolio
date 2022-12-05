@@ -14,16 +14,19 @@ const UserData = {
 			image: "/img/projects/yts-like-movieapp.png",
 			name: "Movie App like YTS",
 			tech: "ReactJs, Axios, React Router, TailwindCss",
+			projectUrl: "https://replit.com/@rabbanisan/react-movie-app",
 		},
 		{
 			image: "/img/projects/crud-react-axios.png",
 			name: "FrontEnd for CRUD Student Data ",
 			tech: "ReactJs, Axios, React Router, TailwindCss",
+			projectUrl: "https://replit.com/@rabbanisan/react-mui-pokedex",
 		},
 		{
 			image: "/img/projects/crud-express-mongodb-ejs.png",
 			name: "BackEnd for CRUD Student Data ",
 			tech: "ExpressJs, Mongodb, EJs",
+			projectUrl: "https://replit.com/@rabbanisan/crud-express-mongoatlas",
 		},
 	],
 	about: {
@@ -42,48 +45,37 @@ const UserData = {
 			`Kelas industri berhasil meningkatkan motivasi belajar siswa di buktikan dengan di terimanya siswa terbaik untuk langsung berkerja di perusahaan mitra setelah lulus `,
 			`Teknologi Yang pernah di gunakan`,
 		],
-		currentProject: "point of sale application with laravel",
-		currentProjectUrl:
-			"https://github.com/themasfebrianto/Laravel-Jetstram-kasir",
 	},
 	projects: [
 		{
 			image: "/img/projects/yts-like-movieapp.png",
 			name: "Movie App like YTS",
 			tech: "ReactJs, Axios, React Router, TailwindCss",
+			projectUrl: "https://replit.com/@rabbanisan/react-movie-app",
 		},
 		{
 			image: "/img/projects/crud-react-axios.png",
 			name: "FrontEnd for CRUD Student Data ",
 			tech: "ReactJs, Axios, React Router, TailwindCss",
+			projectUrl: "https://replit.com/@rabbanisan/react-mui-pokedex",
 		},
 		{
 			image: "/img/projects/crud-express-mongodb-ejs.png",
 			name: "BackEnd for CRUD Student Data ",
 			tech: "ExpressJs, Mongodb, EJs",
+			projectUrl: "https://replit.com/@rabbanisan/crud-express-mongoatlas",
+		},
+		{
+			image: "/img/projects/interactive-rating-component.png",
+			name: "Interactive Rating Component",
+			tech: "HTML, SCSS, JS",
+			projectUrl: "https://replit.com/@rabbanisan/interactive-rating-component",
 		},
 		{
 			image: "/img/projects/nft-preview-card.png",
 			name: "NFT Preview Card",
 			tech: "HTML, CSS",
-		},
-	],
-	experiences: [
-		{
-			style: "vertical-timeline-element--education",
-			iconStyleBg: "#3e497a",
-			iconStyleColor: "#ffff",
-			experience: "My Random High School, Random Place, Random State",
-			experienceDesc: "High School Diploma",
-			experienceDate: "2010 - 2014",
-		},
-		{
-			style: "vertical-timeline-element--work",
-			iconStyleBg: "#FB923C",
-			iconStyleColor: "#ffff",
-			experience: "My Random High School, Random Place, Random State",
-			experienceDesc: "High School Diploma",
-			experienceDate: "2010 - 2014",
+			projectUrl: "https://replit.com/@rabbanisan/nft-preview-card-component",
 		},
 	],
 	resumeUrl:
