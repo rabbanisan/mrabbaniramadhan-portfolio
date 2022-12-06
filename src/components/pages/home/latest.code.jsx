@@ -10,15 +10,15 @@ const LatestCode = () => {
 
 	useEffect(() => {
 		const username = UserData.githubUsername;
-		const token = process.env.REACT_APP_GITHUB_AUTH_TOKEN;
+		// const token = process.env.REACT_APP_GITHUB_AUTH_TOKEN;
 		axios
 			.get(
-				`https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,
-				{
-					headers: {
-						Authorization: `token ${token}`,
-					},
-				}
+				`https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`
+				// {
+				// 	headers: {
+				// 		Authorization: `token ${token}`,
+				// 	},
+				// }
 			)
 			.then((res) => {
 				let latestRepos = res.data.items;
@@ -48,7 +48,7 @@ const LatestCode = () => {
 				</div>
 				<div
 					id="codeList"
-					className="my-4 flex flex-col md:flex-row md:flex-wrap md:justify-around"
+					className="my-4 flex flex-col md:flex-row md:flex-wrap md:justify-between "
 				>
 					{repos.map((item, i) => {
 						return (
