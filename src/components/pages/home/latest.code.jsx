@@ -10,7 +10,7 @@ const LatestCode = () => {
 
 	useEffect(() => {
 		const username = UserData.githubUsername;
-		const token = "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";
+		const token = "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";
 		axios
 			.get(
 				`https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,
@@ -39,7 +39,7 @@ const LatestCode = () => {
 						<p className="px-2 md:text-[24px]">some of my latest code</p>
 					</div>
 					<a
-						className="h-[10%] md:h-[50%] md:py-4 px-2 rounded-md bg-white shadow-md text-lg md:text-xl font-semibold flex flex-row space-x-4 items-center group-hover:translate-y-6"
+						className="h-[10%] md:h-[50%] md:py-4 px-2 rounded-md bg-white shadow-md text-md md:text-xl font-semibold flex flex-row space-x-4 items-center group-hover:translate-y-6"
 						href={`https://github.com/${UserData.githubUsername}`}
 					>
 						<BsBoxArrowInUpRight />

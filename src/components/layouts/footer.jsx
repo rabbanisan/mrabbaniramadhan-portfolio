@@ -19,16 +19,16 @@ const Footer = () => {
 					</a>
 				</button>
 			</div>
-			<div className="flex flex-col text-white md:space-x-20 justify-between md:items-center md:flex-row">
+			<div className="flex flex-col text-white text-sm md:text-xl md:space-x-20 justify-between md:items-center md:flex-row">
 				<div>
 					<p>&copy; Muhammad Rabbani. All Rights Reserved.</p>
 				</div>
 				<div>
-					<div>
+					<div className="text-sm md:text-xl">
 						Developed by
 						<div className="inline-block transform hover:scale-110 transition duration-300">
 							<a
-								className="hover:bg-orange-500 rounded-md px-2 py-1  hover:text-gray-50"
+								className="hover:bg-orange-500 rounded-md px-2 py-1 hover:text-gray-50 md:text-xl"
 								href="https://themasfebrianto.github.io"
 							>
 								Muhammad Rabbani

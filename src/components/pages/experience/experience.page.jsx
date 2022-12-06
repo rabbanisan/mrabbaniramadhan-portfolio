@@ -21,6 +21,20 @@ const Experience = () => {
 					<VerticalTimeline lineColor="#3e497a">
 						<VerticalTimelineElement
 							className="vertical-timeline-element--education"
+							date="2011-2014"
+							iconStyle={{
+								background: "#3e497a",
+								color: "#ffff",
+							}}
+							icon={<MdSchool />}
+						>
+							<h3 className="vertical-timeline-element-title">
+								Jurusan Ilmu Pengetahuan Alam
+							</h3>
+							<p>SMA Negeri 1 Baleendah</p>
+						</VerticalTimelineElement>
+						<VerticalTimelineElement
+							className="vertical-timeline-element--education"
 							date="2014-2018"
 							iconStyle={{
 								background: "#3e497a",
@@ -35,7 +49,7 @@ const Experience = () => {
 						</VerticalTimelineElement>
 						<VerticalTimelineElement
 							className="vertical-timeline-element--education"
-							date="2014-2018"
+							date="2019"
 							iconStyle={{
 								background: "#FB923C",
 								color: "#ffff",
@@ -43,9 +57,23 @@ const Experience = () => {
 							icon={<MdOutlineWork />}
 						>
 							<h3 className="vertical-timeline-element-title">
-								S1 Teknik Informatika
+								Desainer Grafis
 							</h3>
-							<p>Universitas Langlangbuana</p>
+							<p>CV.Kahfi</p>
+						</VerticalTimelineElement>
+						<VerticalTimelineElement
+							className="vertical-timeline-element--education"
+							date="2020 - Sekarang"
+							iconStyle={{
+								background: "#FB923C",
+								color: "#ffff",
+							}}
+							icon={<MdOutlineWork />}
+						>
+							<h3 className="vertical-timeline-element-title">
+								Guru Program Keahlian Rekayasa Perangkat Lunak
+							</h3>
+							<p>SMK Yadika Soreang</p>
 						</VerticalTimelineElement>
 					</VerticalTimeline>
 				</div>

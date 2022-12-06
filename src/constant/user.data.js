@@ -8,7 +8,7 @@ const UserData = {
 	address: "Banjaran Bandung Jawa Barat",
 	cvUrl:
 		"https://drive.google.com/file/d/1TBPUSn8-vwQyJ4gEsQwXfnF8BbAiFFfk/view?usp=share_link",
-	linkedinUrl: "",
+	linkedinUrl: "https://www.linkedin.com/in/muhammad-rabbani-r/",
 	favProjects: [
 		{
 			image: "/img/projects/yts-like-movieapp.png",
