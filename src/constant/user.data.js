@@ -83,9 +83,9 @@ const UserData = {
 	socialLinks: {
 		linkedin: "https://www.linkedin.com/in/muhammad-rabbani-r/",
 		github: "https://github.com/rabbanisan",
-		instagram: "",
-		twitter: "",
-		facebook: "",
+		instagram: "https://www.instagram.com/rabbanisan/",
+		twitter: "https://twitter.com/rabbanisan99",
+		facebook: "https://web.facebook.com/muhammad.rabbaniramadhan",
 	},
 };
 
