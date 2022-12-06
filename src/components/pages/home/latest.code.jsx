@@ -10,7 +10,7 @@ const LatestCode = () => {
 
 	useEffect(() => {
 		const username = UserData.githubUsername;
-		const token = "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";
+		const token = process.env.REACT_APP_GITHUB_AUTH_TOKEN;
 		axios
 			.get(
 				`https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,
