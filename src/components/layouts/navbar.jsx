@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
-import { ImGithub, ImLinkedin } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 import NavItem from "../common/nav.item";
 import Container from "../layouts/container";
 
@@ -55,7 +55,7 @@ const Navbar = (props) => {
 								<p>MUHAMMAD RABBANI</p>
 							</a>
 							<a className="text-sm" href="https://github.com/rabbanisan">
-								<p>Web Developer, Educator</p>
+								<p>Web Developer, Teacher</p>
 							</a>
 						</div>
 						<div className="navLink flex space-x-4 md:hidden">
@@ -64,11 +64,11 @@ const Navbar = (props) => {
 									<ImGithub size={30} />
 								</a>
 							</button>
-							<button type="button">
+							{/* <button type="button">
 								<a href="https://github.com/rabbanisan">
 									<ImLinkedin size={30} />
 								</a>
-							</button>
+							</button> */}
 						</div>
 						<button
 							type="button"
@@ -99,11 +99,11 @@ const Navbar = (props) => {
 									<ImGithub size={30} />
 								</a>
 							</button>
-							<button type="button">
+							{/* <button type="button">
 								<a href="https://github.com/rabbanisan">
 									<ImLinkedin size={30} />
 								</a>
-							</button>
+							</button> */}
 						</div>
 					</div>
 				</Container>

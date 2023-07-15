@@ -21,7 +21,7 @@ const Hero = () => {
 				<div className="w-8/12 font-bold mt-4 text-2xl md:text-[48px] md:leading-tight">
 					<p className="p-2 m-2 rounded-lg bg-blue-400">Muhammad Rabbani.</p>
 					<p className="p-2 m-2 rounded-lg bg-orange-400">Web Developer.</p>
-					<p className="p-2 m-2 rounded-lg bg-emerald-500">Educator.</p>
+					<p className="p-2 m-2 rounded-lg bg-emerald-500">Teacher.</p>
 				</div>
 			</section>
 		</Container>

@@ -31,12 +31,11 @@ const UserData = {
 	],
 	about: {
 		title:
-			"Saya adalah Guru di salah satu SMK Swasta di Kabupaten Bandung, saat ini mencari perusahaan untuk berkerja khususnya di bidang Software Development, saya sangat tertarik di Pengembangan Website dan Frontend",
+			"Saya adalah Guru di salah satu SMK Swasta di Kabupaten Bandung, saat ini mencari perusahaan untuk berkerja khususnya di bidang website development",
 		contact: "Jika ada pertanyaan atau tawaran bisa langsung hubungi saya via ",
 		jobOportunities:
 			"Saat ini saya sedang mencari pekerjaan sabagi software develeoper khususnya Frontend Developer.",
 		prestations: [
-			`Berhasil meningkatkan jumlah siswa RPL dari 2 kelas menjadi 3 kelas pada setiap angkatannya`,
 			`Berhasil menghadirkan industri untuk sinkronisasi kurikulum pembelajaran`,
 			`Berhasil Menghadirkan Program Kelas industri`,
 			`Berhasil menghadirkan Teaching Factory sebagai wadah untuk siswa mengerjakan projek asli`,

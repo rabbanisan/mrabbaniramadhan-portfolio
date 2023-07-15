@@ -1,5 +1,5 @@
 // import UserData from "../../constant/user.data";
-import { ImGithub, ImLinkedin } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 
 const Footer = () => {
 	return (
@@ -13,11 +13,11 @@ const Footer = () => {
 						<ImGithub size={30} />
 					</a>
 				</button>
-				<button type="button" className="hover:text-orange-400">
+				{/* <button type="button" className="hover:text-orange-400">
 					<a href="https://github.com/rabbanisan">
 						<ImLinkedin size={30} />
 					</a>
-				</button>
+				</button> */}
 			</div>
 			<div className="flex flex-col text-white text-sm md:text-xl md:space-x-20 justify-between md:items-center md:flex-row">
 				<div>
@@ -43,11 +43,11 @@ const Footer = () => {
 						<ImGithub size={25} />
 					</a>
 				</button>
-				<button type="button" className="hover:text-orange-400">
+				{/* <button type="button" className="hover:text-orange-400">
 					<a href="https://github.com/rabbanisan">
 						<ImLinkedin size={25} />
 					</a>
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);
