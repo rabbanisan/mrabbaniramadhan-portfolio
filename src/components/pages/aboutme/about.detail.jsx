@@ -26,7 +26,7 @@ const AboutDetail = () => {
 						<p>
 							{UserData.about.jobOportunities} berikut{" "}
 							<a
-								href={`${UserData.cvUrl}`}
+								href={`${UserData.resumeUrl}`}
 								className="font-bold border-b-2 border-black"
 							>
 								CV
@@ -43,12 +43,12 @@ const AboutDetail = () => {
 									<a href={`${UserData.socialLinks.github}`}>Github</a>
 								</div>
 							</div>
-							<div className="github group">
+							{/* <div className="github group">
 								<div className="flex items-center space-x-2 transform group-hover:translate-x-2 transition duration-300">
 									<p>&rarr;</p>
 									<a href={`${UserData.socialLinks.linkedin}`}>LinkedIn</a>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

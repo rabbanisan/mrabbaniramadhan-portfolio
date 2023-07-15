@@ -6,8 +6,8 @@ const UserData = {
 	email: "bani.ramadhan99@gmail.com",
 	phone: "+62 89656770164",
 	address: "Banjaran Bandung Jawa Barat",
-	cvUrl:
-		"https://drive.google.com/file/d/1TBPUSn8-vwQyJ4gEsQwXfnF8BbAiFFfk/view?usp=share_link",
+	resumeUrl:
+		"https://drive.google.com/file/d/11-U-R5foEPvG51IvCvE583lNtrisXVkI/view?usp=sharing",
 	linkedinUrl: "https://www.linkedin.com/in/muhammad-rabbani-r/",
 	favProjects: [
 		{
@@ -34,11 +34,10 @@ const UserData = {
 			"Saya adalah Guru di salah satu SMK Swasta di Kabupaten Bandung, saat ini mencari perusahaan untuk berkerja khususnya di bidang website development",
 		contact: "Jika ada pertanyaan atau tawaran bisa langsung hubungi saya via ",
 		jobOportunities:
-			"Saat ini saya sedang mencari pekerjaan sabagi software develeoper khususnya Frontend Developer.",
+			"Saat ini saya sedang mencari pekerjaan sabagi website developer.",
 		prestations: [
 			`Berhasil menghadirkan industri untuk sinkronisasi kurikulum pembelajaran`,
 			`Berhasil Menghadirkan Program Kelas industri`,
-			`Berhasil menghadirkan Teaching Factory sebagai wadah untuk siswa mengerjakan projek asli`,
 		],
 		description: [
 			`Kelas industri berhasil meningkatkan motivasi belajar siswa di buktikan dengan di terimanya siswa terbaik untuk langsung berkerja di perusahaan mitra setelah lulus `,
@@ -77,8 +76,6 @@ const UserData = {
 			projectUrl: "https://replit.com/@rabbanisan/nft-preview-card-component",
 		},
 	],
-	resumeUrl:
-		"https://drive.google.com/file/d/1gypxCl2eqTbVzOT_R-1UBVMXOgDMLj1k/view?usp=sharing",
 	socialLinks: {
 		linkedin: "https://www.linkedin.com/in/muhammad-rabbani-r/",
 		github: "https://github.com/rabbanisan",
